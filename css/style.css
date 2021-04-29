@@ -103,3 +103,29 @@ header{
     width: calc(100% / 3);
     border: 1px solid black;
 }
+
+
+
+.box-loghi, .box-descrizione{
+    width: 33%;
+}
+
+.box-clienti{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.box-descrizione{
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.col{
+    width: calc(100% / 5);
+    border: 1px solid white;
+}
