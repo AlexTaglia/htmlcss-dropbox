@@ -14,6 +14,11 @@
     float: left;
 }
 
+.container{
+    max-width: 900px;
+    background-color: teal;
+    margin: 0 auto;
+}
 
 nav{
     background-color: gray;
@@ -38,7 +43,7 @@ header{
 }
 
 .jumbotron{
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
     height: 100%;
@@ -46,8 +51,42 @@ header{
 
 .text-jumbo{
     width: 30%;
+    border: 1px solid black;
 }
 
 .img-jumbo{
     width: 70%;
+    border: 1px solid black;
+}
+
+[class^="piano-"]{
+    border: 1px solid black;
+    height: 350px;
+}
+
+.piano{
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+}
+
+.piano-professional {
+    width: calc((100% / 3) - 15px);
+    margin-right: 15px;
+}
+
+.piano-standard{
+    width: calc((100% / 3) - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.piano-advanced {
+    width: calc((100% / 3) - 15px);
+    margin-left: 15px;
+}
+
+.piano-enterprise{
+    width: 100%;
+    height: 50px;
 }
