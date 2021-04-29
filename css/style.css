@@ -29,6 +29,7 @@ body{
     max-width: 900px;
     background-color: teal;
     margin: 0 auto;
+    margin-top: 200px;
 }
 
 nav{
@@ -76,6 +77,15 @@ header{
     margin: 0 auto;
 }
 
+.jumbotron .text-jumbo{
+    width: 30%;
+    padding: 30px 0;
+}
+
+.jumbotron .img-jumbo{
+    width: 70%;
+}
+
 .jumbotron h1{
     font-size: 65px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -83,8 +93,11 @@ header{
 }
 
 .jumbotron span{
-    display: block;
     font-size: 12px;
+}
+
+span{
+    display: block;
 }
 
 .jumbotron .arrow{
@@ -100,32 +113,25 @@ header{
     width: 935px;
 }
 
-.text-jumbo{
-    width: 30%;
-    padding: 30px 30px 30px 0;
+.container .input-btn{
+    padding: 30px 0 20px 0;
 }
 
-.img-jumbo{
-    width: 70%;
-}
-
-.partner-img, .partner-text{
-    width: 50%;
-    height: 350px;
-    border: 1px solid black;
-    background-color: yellow;
-}
 
 [class^="piano-"]{
     border: 1px solid black;
     background-color: white;
-    height: 350px;
+    /* height: 350px; */
 }
 
-.piano{
-    border: 1px solid black;
-    width: 100%;
-    height: 150px;
+.header-piano{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.piano-description{
+    padding: 15px;
 }
 
 .piano-professional {
@@ -149,12 +155,21 @@ header{
     height: 50px;
 }
 
+.piano-description-section .btn{
+    width: 100%;
+}
+
+.partner-img, .partner-text{
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
 .feature-card{
     width: calc(100% / 3);
     border: 1px solid black;
 }
-
-
 
 .box-loghi, .box-descrizione{
     width: 33%;

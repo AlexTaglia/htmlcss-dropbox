@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -38,8 +40,8 @@
                     dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo
                     intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                 <button class="btn">inizia la tua prova gratuita</button>
-            <span>Annulla in qualsiasi momento</span>
-            <span class="arrow">&darr;</span>
+                <span>Annulla in qualsiasi momento</span>
+                <span class="arrow">&darr;</span>
             </div>
             <div class="img-jumbo fl"><img src="./img/jumbo.png" alt=""></div>
         </div>
@@ -48,16 +50,40 @@
     <!-- SEZIONE PIANI -->
     <div class="container clearfix">
         <h2>Trova il piano Dropbox Business che fa per te</h2>
-        <div>
-            <input type="radio" id="mensile" name="fatturazione" value="huey" checked>
-            <label for="huey">Fatturazione mensile</label>
-            <input type="radio" id="annuale" name="fatturazione" value="dewey">
-            <label for="dewey">Fatturazione annuale</label>
+        <div class="input-btn">
+            <input type="radio" id="mensile" name="fatturazione" value="mensile" checked>
+            <label for="mensile">Fatturazione mensile</label>
+            <input type="radio" id="annuale" name="fatturazione" value="annuale">
+            <label for="annuale">Fatturazione annuale</label>
         </div>
 
         <div class="piano-professional fl">
-            <div>
-                Singolo
+            <div class="header-piano">Singolo</div>
+            <div class="piano-description">
+                <div class="piano-description-section">
+                    <h4>Professional</h4>
+                    <span>19,99€</span>
+                    <span>/mese</span>
+                </div>
+                <div class="piano-description-section">
+                    <ul>
+                        <li>1 utente</li>
+                        <li>3 TB di spazio di archiviazione</li>
+                        <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                    </ul>
+                </div>
+                <div class="btn"><button class="btn">Prova gratis per 30 giorni</button></div>
+                <span>oppure acquista</span>
+                <div class="piano-description-section">
+                    <h5>Punti salienti del piano</h5>
+                    <ul>
+                        <li>Invia file fino a 100 GB con Dropbox Transfer</li>
+                        <li>Cartelle offline su dispositivi mobili</li>
+                        <li>Pulizia remota dell'account</li>
+                        <li>Filigrana documento                        </li>
+                        <li>Assistenza prioritaria via email e chat</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
