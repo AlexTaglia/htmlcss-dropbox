@@ -22,7 +22,7 @@ body{
     padding: 8px 20px;
     border: none;
     color: white;
-    background-color: rgb(66, 66, 250);
+    background-color: rgb(10, 127, 245);
 }
 
 .container{
@@ -35,6 +35,7 @@ nav{
     background-color: white;
     height: 70px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.671);
+    line-height: 70px;
 }
 
 ul{
@@ -58,8 +59,6 @@ a{
 .menu-left, .menu-right{
     width: 50%;
     height: 50px;
-    border: 1px solid white;
-    line-height: 70px;
 }
 
 .menu-right{
@@ -68,25 +67,46 @@ a{
 
 
 header{
-    background-color: aqua;
-    height: 500px;
+    background-color: rgb(180, 208, 231);
+    height: 600px;
 }
 
 .jumbotron{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
-    height: 100%;
+}
+
+.jumbotron h1{
+    font-size: 65px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 30px;
+}
+
+.jumbotron span{
+    display: block;
+    font-size: 12px;
+}
+
+.jumbotron .arrow{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.jumbotron .btn{
+    margin: 20px 0 15px 0;
+}
+
+.jumbotron img{
+    width: 935px;
 }
 
 .text-jumbo{
     width: 30%;
-    border: 1px solid black;
+    padding: 30px 30px 30px 0;
 }
 
 .img-jumbo{
     width: 70%;
-    border: 1px solid black;
 }
 
 .partner-img, .partner-text{
