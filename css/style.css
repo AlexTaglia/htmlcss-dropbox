@@ -59,8 +59,16 @@ header{
     border: 1px solid black;
 }
 
+.partner-img, .partner-text{
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
 [class^="piano-"]{
     border: 1px solid black;
+    background-color: white;
     height: 350px;
 }
 
@@ -89,4 +97,9 @@ header{
 .piano-enterprise{
     width: 100%;
     height: 50px;
+}
+
+.feature-card{
+    width: calc(100% / 3);
+    border: 1px solid black;
 }
