@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+
+nav{
+    background-color: gray;
+    height: 50px;
+}
+
+.menu-left, .menu-right{
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+    line-height: 50px;
+}
+
+.menu-right{
+    text-align: right;
+}
+
+
+header{
+    background-color: aqua;
+    height: 500px;
+}
+
+.jumbotron{
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.text-jumbo{
+    width: 30%;
+}
+
+.img-jumbo{
+    width: 70%;
+}
