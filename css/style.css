@@ -187,12 +187,17 @@ header{
 
 .feature-card{
     width: calc(100% / 3);
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding: 10px;
     height: 500px;
 }
 
 .feature-card .img1{
     width: 100%;
+}
+
+.clienti{
+    height: 400px;
 }
 
 .box-loghi, .box-descrizione{
@@ -202,12 +207,57 @@ header{
 
 .box-clienti{
     width: 50%;
-    height: 50%;
-    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+}
+
+[id^="logo-"]{
+    width: 150px;
+}
+
+.cliente1{
+    background-color: #a2d39b;
+}
+
+#logo-designit{
+    /* width: 80%; */
+}
+
+.cliente2{
+    background-color: #61082b;
+}
+
+#logo-arizona{
+    /* width: 80%; */
+}
+
+.cliente3{
+    background-color: #0093ce;
+}
+
+.cliente4{
+    background-color: #ff1c1c;
+}
+
+.cliente5{
+    background-color: #d5001f;
+}
+
+.cliente6{
+    background-color: #b4d0e7;
+}
+
+.cliente7{
+    background-color: #0d2481;
+}
+
+.cliente8{
+    background-color: #ffd830;
 }
 
 .box-descrizione{
     height: 100%;
+    padding: 25px;
 }
 
 footer{
