@@ -31,7 +31,6 @@ a{
 
 .container{
     max-width: 900px;
-    /* background-color: teal; */
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -47,10 +46,13 @@ nav{
     height: 70px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.671);
     line-height: 70px;
+    position: fixed;
+    width: 100%;
 }
 
 #logo{
     vertical-align: middle;
+    margin-top: -5px;
 }
 
 ul{
@@ -102,7 +104,7 @@ header{
 .jumbotron h1{
     font-size: 65px;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .price, .period{
@@ -300,6 +302,7 @@ header{
     width: 50%;
     height: 250px;
     text-align: center;
+    
 }
 
 [id^="logo-"]{
@@ -389,8 +392,20 @@ svg{
     border-bottom: 1px solid lightgray;
 }
 
+[class^="question-"]{
+    display: inline-block;
+    width: 94%;
+
+}
+
+.question li .arrow{
+    display: inline-block;
+    text-align: right;
+    width: 5%;
+}
+
 footer{
-    height: 400px;
+    height: 360px;
     background-color: black;
     color: white;
 }
