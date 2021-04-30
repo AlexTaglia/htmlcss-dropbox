@@ -27,7 +27,7 @@ body{
 
 .container{
     max-width: 900px;
-    background-color: teal;
+    /* background-color: teal; */
     margin: 0 auto;
     margin-top: 200px;
 }
@@ -37,6 +37,10 @@ nav{
     height: 70px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.671);
     line-height: 70px;
+}
+
+#logo{
+    vertical-align: middle;
 }
 
 ul{
@@ -52,7 +56,7 @@ li:last-child{
     margin-right: 0;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: black;
 }
@@ -111,16 +115,17 @@ header{
     padding: 30px 0 20px 0;
 }
 
+.piano {
+    border: 1px solid lightgray;
+}
 
-[class^="piano-"]{
-    border: 1px solid black;
-    background-color: white;
-    /* height: 350px; */
+.piano .header-piano{
+    border-bottom: 1px solid lightgray;
 }
 
 .header-piano{
-    height: 30px;
-    line-height: 30px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
 }
 
@@ -128,29 +133,69 @@ header{
     padding: 15px;
 }
 
-.item-img, .item-description{
+.piano-description-section h4{
+    font-size: 25px;
+}
+
+.piano-description-section h5{
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.piano-description-section .price{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.piano-description-section .period{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 35px;
+}
+
+.piano-description .pad{
+    padding: 15px 0;
+}
+
+.piano-description hr{
+    width: 50px;
+}
+
+.item-img, .item-description, .item-check{
     display: inline-block;
     height: 30px;
     font-size: 12px;
     text-align: top;
 }
 
-.item-img{
+.piano-description-section .item-img, .item-check{
     vertical-align: top;
     padding-top: 3px;
 }
 
-.item-description{
-    width: 60%;
-    text-align: top;
+.piano-description-section .item-check{
+    color: blue;
+    font-weight: 900;
+}
+
+.piano-description-section .item-description{
+    width: 80%;
+    padding-left: 5px;
 }
 
 .piano-description-section li{
     padding: 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.piano-description-section li:last-child{
+    margin-bottom: 50px;
 }
 
 .piano-professional {
-    width: calc((100% / 3) - 15px);
+    width: calc((100% / 3) - 30px);
     margin-right: 15px;
 }
 
@@ -161,7 +206,7 @@ header{
 }
 
 .piano-advanced {
-    width: calc((100% / 3) - 15px);
+    width: calc((100% / 3) - 30px);
     margin-left: 15px;
 }
 
@@ -215,20 +260,18 @@ header{
     width: 150px;
 }
 
+svg{
+    fill: white;
+    width: 120px;
+    height: 100%;
+}
+
 .cliente1{
     background-color: #a2d39b;
 }
 
-#logo-designit{
-    /* width: 80%; */
-}
-
 .cliente2{
     background-color: #61082b;
-}
-
-#logo-arizona{
-    /* width: 80%; */
 }
 
 .cliente3{
