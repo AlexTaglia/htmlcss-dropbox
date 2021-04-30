@@ -136,14 +136,18 @@ header{
 }
 
 .item-img{
-    text-align: top;
+    vertical-align: top;
 }
 
 .item-description{
-    width: 70%;
+    width: 60%;
     text-align: top;
-
 }
+
+.piano-description-section li{
+    padding: 0;
+}
+
 
 .piano-professional {
     width: calc((100% / 3) - 15px);
