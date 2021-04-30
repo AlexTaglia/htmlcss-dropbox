@@ -382,19 +382,49 @@ svg{
     line-height: 60px;
     width: 100%;
     border-top: 1px solid lightgray;
+    padding-left: 0px;
 }
 
 .question li:last-child{
     border-bottom: 1px solid lightgray;
 }
 
-
 footer{
+    height: 400px;
     background-color: black;
     color: white;
 }
 
-.col{
-    width: calc(100% / 5);
-    border: 1px solid white;
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .col{
+    width: 20%;
+    height: 250px;
+    padding-top: 25px;
+}
+
+footer li{
+    display: block;
+    padding: 5px 0;
+    font-size: 10px;
+}
+
+footer h6{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+footer hr{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+footer .language{
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: gray;
+    font-weight: bold;
 }
