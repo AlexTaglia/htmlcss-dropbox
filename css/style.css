@@ -25,11 +25,15 @@ body{
     background-color: rgb(10, 127, 245);
 }
 
+a{
+    color: blue;
+}
+
 .container{
     max-width: 900px;
     /* background-color: teal; */
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 nav{
@@ -72,6 +76,7 @@ nav a{
 header{
     background-color: rgb(180, 208, 231);
     height: 600px;
+    margin-bottom: 200px;
 }
 
 .jumbotron{
@@ -235,7 +240,7 @@ header{
 .partner-img, .partner-text{
     width: 50%;
     height: 390px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .img-partner{
@@ -263,15 +268,23 @@ header{
     width: calc(100% / 3);
     /* border: 1px solid black; */
     padding: 10px;
-    height: 500px;
+    height: 450px;
 }
 
 .feature-card .img1{
     width: 100%;
 }
 
+.clienti-header h2{
+    font-size: 40px;
+}
+
+.clienti-header .link-clienti{
+    margin: 20px 0 25px 0;
+}
+
 .clienti{
-    height: 400px;
+    height: 500px;
 }
 
 .box-loghi, .box-descrizione{
@@ -281,17 +294,22 @@ header{
 
 .box-clienti{
     width: 50%;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
 [id^="logo-"]{
-    width: 150px;
+    width: 160px;
 }
 
 svg{
     fill: white;
-    width: 120px;
+    width: 100px;
+    height: 100%;
+}
+
+.img-svg{
+    fill: white;
     height: 100%;
 }
 
@@ -331,6 +349,12 @@ svg{
     height: 100%;
     padding: 25px;
 }
+
+.bg-lightblue{
+    background-color: #b4d0e7;
+}
+
+
 
 footer{
     background-color: black;
