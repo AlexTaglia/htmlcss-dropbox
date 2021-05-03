@@ -44,7 +44,7 @@ a{
 nav{
     background-color: white;
     height: 70px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.671);
+    border-bottom: 1px solid lightgray;
     line-height: 70px;
     position: fixed;
     width: 100%;
@@ -53,6 +53,10 @@ nav{
 #logo{
     vertical-align: middle;
     margin-top: -5px;
+}
+
+#logo-clearchannel{
+    width: 100px;
 }
 
 ul{
@@ -83,7 +87,7 @@ nav a{
 
 header{
     background-color: rgb(180, 208, 231);
-    height: 600px;
+    height: 700px;
     margin-bottom: 200px;
 }
 
@@ -167,8 +171,8 @@ header{
     padding-bottom: 35px;
 }
 
-.piano-description .pad{
-    padding: 15px 0;
+.piano-description .acquista-ora{
+    padding: 20px 0;
 }
 
 .piano-description hr{
@@ -298,6 +302,17 @@ header{
     background-color:#f5f5f5;
 }
 
+.box-descrizione hr{
+    width: 50px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin:  30px 0 50px 0; ;
+}
+
+.box-descrizione .author{
+    padding-top: 50px;
+}
+
 .box-clienti{
     width: 50%;
     height: 250px;
@@ -405,9 +420,14 @@ svg{
 }
 
 footer{
-    height: 360px;
     background-color: black;
     color: white;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+footer .container{
+    padding: 0;
 }
 
 footer a{
@@ -418,7 +438,6 @@ footer a{
 footer .col{
     width: 20%;
     height: 250px;
-    padding-top: 25px;
 }
 
 footer li{
@@ -439,7 +458,6 @@ footer hr{
 
 footer .language{
     font-size: 12px;
-    padding-bottom: 15px;
     color: gray;
     font-weight: bold;
 }
