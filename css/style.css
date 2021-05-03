@@ -35,10 +35,8 @@ a{
     margin-top: 100px;
 }
 
-.container1{
-    max-width: 900px;
+.bg-lightblue .container{
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 nav{
@@ -55,9 +53,6 @@ nav{
     margin-top: -5px;
 }
 
-#logo-clearchannel{
-    width: 100px;
-}
 
 ul{
     list-style: none;
@@ -275,17 +270,30 @@ header{
     border: 1px solid black;
 }
 
-.feature-card{
-    width: calc(100% / 3);
-    padding: 10px;
+[class^="feature-card"]{
     height: 450px;
+}
+
+.feature-card-left{
+    width: calc(100% / 3 - 20px);
+    margin-right: 10px;
+}
+
+.feature-card-center{
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feature-card-right{
+    width: calc(100% / 3 - 20px);
+    margin-left: 10px;
 }
 
 .feature-card .img1{
     width: 100%;
 }
 
-.clienti-header h2{
+.clienti-header h2, h2{
     font-size: 40px;
 }
 
@@ -317,11 +325,14 @@ header{
     width: 50%;
     height: 250px;
     text-align: center;
-    
 }
 
 [id^="logo-"]{
     width: 160px;
+}
+
+#logo-clearchannel{
+    width: 100px;
 }
 
 svg{
@@ -374,12 +385,12 @@ svg{
 
 .bg-lightblue{
     background-color: #b4d0e7;
+    padding: 50px 0;
 }
 
-.bg-lightblue h2{
+.bg-lightblue h3{
     font-size: 30px;
     color: maroon;
-    padding-bottom: 50px;
 }
 
 .box-right{
@@ -389,7 +400,6 @@ svg{
 .bg-lightblue .btn{
     color: black;
     background: white;
-
 }
 
 .question h2{
